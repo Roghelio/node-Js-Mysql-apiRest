@@ -1,0 +1,23 @@
+Nodejs MySQL REST API, Desde cero a Despliegue en Railway
+
+link
+https://www.youtube.com/watch?v=3dSkc-DIM74
+
+Código del ejemplo práctico:
+https://github.com/fazt/nodejs-mysql-restapi/
+
+crear proyecto
+npm init -y
+
+instalar el modulo de express
+npm install express
+
+no se instala nodemon, ya que para versiones superios a la 17 de express se agrega/una linea de codigo
+"start": "node --watch index.js"
+dentro del apartado de scripts, en el archivo package.json
+
+instalar la biblioteca Node MySQL2 - es la version actualizada
+npm install mysql2
+
+instalar la biblioteca dotenv para manejar variables de entorno
+npm install dotenv
